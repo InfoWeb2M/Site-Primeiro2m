@@ -1,4 +1,4 @@
-/* Reset Global */
+/* Configurações Globais */
 * {
     margin: 0;
     padding: 0;
@@ -38,7 +38,7 @@ a:hover {
     opacity: 0.7;
 }
 
-/* Header */
+/* Barra de navegação */
 header {
     animation: fade-In 0.3s ease-in forwards;
     position: fixed;
@@ -55,7 +55,6 @@ header {
     display:none;
 }
 
-/* Navigation */
 .nav {
     display: flex;
     justify-content: center;
@@ -94,7 +93,7 @@ header {
     z-index: -1;
 }
 
-/* Content */
+/* Hero */
 .content {
     margin-top: 20vh;
     display: flex;
@@ -127,7 +126,20 @@ img.b {
     z-index: 10;
 }
 
-/* Sections */
+/*Seção Introdução*/
+.texto {
+    animation: fade-In 0.3s ease-in forwards;
+    position: relative;
+    top: 20vh;
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C1C1E;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 13px #3f016c;
+}
 section#introducao {
     animation: fade-In 0.3s ease-in forwards;
     background: linear-gradient(45deg, #8A2BE2, #6a0dad, #36005d);
@@ -140,6 +152,7 @@ section#introducao {
     z-index: 1;
 }
 
+/* Sections Geral */
 section#sobre-nos, 
 section#projetos{
     animation: fade-In 0.3s ease-in forwards;
@@ -170,13 +183,13 @@ section#projetos{
     border-radius: 10px;
     animation: fade-In 0.3s ease-in forwards;
 }
-/*Sobre section*/
-.sobrecenter{
+/*Seçção Sobre*/
+.sobrecenter{ /*Centraliza os conteúdos*/
     display:flex;
     justify-content: center;
     margin-bottom: -20vh;
 }
-.retangulo1{
+.retangulo1{/*Configurações dos retângulos*/
     animation: fade-In 0.3s ease-in forwards;
     margin-top: 3vh;
     flex-direction: row;
@@ -189,7 +202,7 @@ section#projetos{
     box-shadow: 3px 3px 13px #3f016c;
     text-align: center;
 }
-.quadrado1,.quadrado2{
+.quadrado1,.quadrado2{/*Configurações dos quadrados*/
     animation: fade-In 0.3s ease-in forwards;
     margin-top: 3dvh;
     flex-direction: row;
@@ -204,20 +217,20 @@ section#projetos{
     margin-left: 7vh;
     
 }
-.tcenter{
+.tcenter{/*Centraliza apenas o texto*/
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-/* Social Media Section */
-.divulgacao {
+/* Seção Redes */
+.divulgacao {/*Configurações gerais*/
     animation: fade-In 0.3s ease-in forwards;
     display: flex;
     margin-bottom: 10vh;
 }
 
-.ret1, .ret2 {
+.ret1, .ret2 {/*Configurações individuais dos retângulos*/
     animation: fade-In 0.3s ease-in forwards;
     margin-top: 3vh;
     flex-direction: row;
@@ -230,47 +243,31 @@ section#projetos{
     box-shadow: 3px 3px 13px #3f016c;
     text-align: center;
 }
-.ret11{
+.ret11{/*Texto*/
     margin-top: -10vh;
 }
 
-.ret1 + .ret2 {
+.ret1 + .ret2 {/*Apenas o retângulo esq.*/
     margin-left: 7vh;
 }
+#insta { /*Estilização da âncora das redes*/
+    animation: fade-In 0.3s ease-in forwards;
+    color: #7E57C2;
+}
 
-/* Section Paragraph */
-p#psobre {
+/* Seção Projetos */
+p#psobre {/*Texto "EM ANDAMENTO"*/
     animation: fade-In 0.1s ease-in forwards;
     font-size: 3vh;
     font-weight: bold;
 }
-
-/* Text Box */
-.texto {
-    animation: fade-In 0.3s ease-in forwards;
-    position: relative;
-    top: 20vh;
-    padding: 2rem 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1C1C1E;
-    width: 60%;
-    border-radius: 10px;
-    box-shadow: 3px 3px 13px #3f016c;
-}
-
-#insta {
-    animation: fade-In 0.3s ease-in forwards;
-    color: #7E57C2;
-}
-p#projetos{
+p#projetos{/*Explicação dos projetos*/
     margin-bottom: -20vh;
     text-align: center;
     max-width: 50%;
     padding: 1.5rem 6rem;
 }
-/* Responsiveness */
+/* Responsividade */
 @media screen and (max-width: 730px) {
     img.a{
         margin-left: -10vw;
