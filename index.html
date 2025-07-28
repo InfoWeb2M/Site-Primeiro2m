@@ -1,119 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;500&family=Montserrat:wght@400;500;600&family=Lato:wght@300;400;700&family=Raleway:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="imgs/InfoWeb 2m ico.png" type="image/x-icon">
-
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="imgs/InfoWeb 2m ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;500&family=Montserrat:wght@400;500;600&family=Lato:wght@300;400;700&family=Raleway:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
     <title>Primeiro 2M &#9889;</title>
 </head>
+<div class="background"></div>
 <body>
-    <!--Fundo-->
-    <div class="background"></div>
-
     <!--Barra de navegação-->
-    <header>
-        <div class="nav">
-            <!--Menu responsivo-->
-            <div class="hamburger" onclick="menuResponsivo()">
-                ☰
-            </div>
-            <!--Menu Responsivo-->
-            <div class="infoweb">
-                InfoWeb 2m
-            </div>
-            <!--Lista de navegação-->
-            <div class="nav-list">
-                <ul>
-                    <li><a href="#introducao">Início</a></li>
-                    <li><a href="#sobre-nos">Sobre</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#redes">Social</a></li>
+    <div id="Header"><!--Para centralizar o cabeçalho-->
+        <header>
+            <nav class="navbar">
+                <ul class="navList">
+                    <li style="animation-delay: 0.3s;" ><a href="#início">Início</a></li>
+                    <li style="animation-delay: 0.5s ;" ><a href="#introducao">Introdução</a></li>
+                    <li style="animation-delay:0.7s ;" ><a href="#sobre">Sobre</a></li>
+                    <li style="animation-delay: 0.9s;" ><a href="#redes">Social</a></li>
                 </ul>
-            </div>
-        </div>
-    </header class>
-
-    <!--Imagem Hero (Início)-->
-    <div class="content">
-        <picture><img class="b" src="imgs/logo.png" alt="Logo"></picture>
-        <h1>Primeirão <span style="color: #4B0082 ;">2M </span></h1>
+            </nav>
+        </header>
     </div>
-    <!--Seção Introdução-->
-    <section id="introducao">Introdução</section>
-    <!--Texto da Introdução-->
-    <div class="texto">
-        <p><strong>Bem-vindo ao Portfólio da Turma InfoWeb 2025 - 2M!</strong> 🚀  <br>
+    <main>
+        <!--Logo inicial-->
+        <section id="início">
+            <figure>
+                <img class="logoPrincipal" src="imgs/logo.png" alt="Logo da Turma">
+            </figure>
+            <h1>Primeirão <span style="color: #4B0082 ;">2M </span></h1>
+        </section>
 
-            Somos estudantes do primeiro ano do curso de Info Web, e este espaço é dedicado a mostrar nossos primeiros passos no universo da tecnologia. Aqui, você encontrará projetos que refletem nosso aprendizado, criatividade e dedicação por criar experiências digitais.  <br>
-            
-            Explore nosso trabalho e acompanhe o início da nossa jornada no mundo da programação! 💻</p>
-        </div>
-        <!--Foto da Turma-->
-        <img class="a" src="imgs/foto site.png" alt="">
-        <!--Seção Sobre-nos-->
-    <section id="sobre-nos">sobre</section>
-    <div class="sobrecenter"><!--Centralizador-->
-        <div class="retangulo1"><!--Retângulo principal (Esq.)-->
-            <p><span style="background-color: #7E57C2;">CURSO</span></p><br><!--Cor título-->
-            <p>O curso de Informática para Internet é voltado para quem deseja atuar no desenvolvimento e manutenção de sistemas e aplicações web. Durante a formação, os alunos aprendem a criar sites, programar sistemas online, trabalhar com banco de dados, desenvolver interfaces interativas e garantir a segurança digital.
-            Os profissionais formados podem atuar como desenvolvedores web, designers, analistas de sistemas e especialistas em segurança digital, podendo trabalhar em empresas de tecnologia ou até empreender com seus próprios projetos digitais.</p>
-            
-        </div>
-        <div class="alinha-cuadrados"><!--Alinha os subquadrados horizontalmente e em coluna-->
-            <div class="quadrado1"><!--Quadrado 1 (esq.)-->
-                <div class="tcenter">
-                    <p><span style="background-color: #7E57C2;">PATRONO</span></p><br><!--Cor título-->
-                    <p>A nossa turma tem uma identidade única e especial! O patrono, <a target="_blank" id="insta" href="https://www.instagram.com/_aislanny?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">@_aislanny</a>, representa nossa essência e valores, sendo uma inspiração para todos nós. </p>
-                </div>
-            </div>
-            <div class="quadrado2">
-                <div class="tcenter">
-                    <p><span style="background-color: #7E57C2;">ADMs Instagram</span></p><br><!--Cor título-->
-                    <p>Além disso, a conta do Instagram da turma está sob os cuidados de <a target="_blank" id="insta" href="https://www.instagram.com/beni.n10?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">@beni.n10</a> e <a target="_blank" id="insta" href="https://www.instagram.com/lays.eduardaaraujo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">@lays.eduardaaraujo</a>, que garantem que todos fiquem por dentro das novidades e momentos marcantes.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--seção de projetos-->
-    <section id="projetos">Projetos</section>
-    <img class="b" src="imgs/Construction-rafiki.png" alt="">
-    <p id="psobre">EM <span style="color: #4B0082;">ANDAMENTO</span></p><br><br>
-    <p id="projetos">Ao longo do ano, diversos projetos serão desenvolvidos pelos alunos, explorando habilidades em programação, design e desenvolvimento web. Conforme forem sendo realizados, eles serão adicionados aqui, mostrando a evolução e criatividade da turma! </p>
-    <!--sseção sobre as redes-->
-    <section id="redes">Redes</section>
-    <p><strong>Conecte-se conosco através das nossas redes sociais!</strong></p> <><!--Primeiro texto-->
-    <div class="divulgacao"><!--Organizador(Agrupa os retângulos das redes)-->
-        <div class="ret1"><!--Configurações do quadrado individual-->
+        <section id="introducao">
+            <h2>Introdução</h2>
 
-            <div class="ret11"><!--Centraliza apenas o texto-->
-                <p>&#128247; <strong>Instagram</strong> <span style="color: #7E57C2;">[<a id="insta" href="https://www.instagram.com/infoweb2025.2m?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">@InfoWeb2025.2m</a>]</span><br><br>
-                Nosso Instagram é o canal oficial de divulgação da turma! Aqui compartilhamos:<br><br>
+            <!--texto de Bem-vindos-->
+            <article>
+                <p><strong>Bem-vindo ao Portfólio da Turma InfoWeb 2M - 2025!</strong></p>🚀
+    
+                <p>Somos estudantes do primeiro ano do curso de Info Web, e este espaço é dedicado a mostrar nossos primeiros passos no universo da tecnologia. Aqui, você encontrará projetos que refletem nosso aprendizado, criatividade e dedicação por criar experiências digitais.</p>
+    
+                <p>Explore nosso trabalho e acompanhe o início da nossa jornada no mundo da programação! 💻</p>
+            </article>
+            <!--Imagem da Turma-->
+            <figure>
+                <img id="turma" src="imgs/foto site.png" alt="foto da turma">
+            </figure>
+        </section>
+    
+        <!--Seção Sobre-->
+        <div class="odeioFlexbox"> <!--Div pq eu odeio flexbox :(--><!--Para centralizar o título das sections-->
+            <h2>Sobre Nós</h2>
+        </div>
+        <section id="sobre">
+            <!--Cards sobre-->
+            <article class="retangulo"><!--Para estilização específica desse card-->
+                <p><span style="background-color: #7E57C2;">CURSO</span></p>
+                <p>O curso de Informática para Internet é voltado para quem deseja atuar no desenvolvimento e manutenção de sistemas e aplicações web. Durante a formação, os alunos aprendem a criar sites, programar sistemas online, trabalhar com banco de dados, desenvolver interfaces interativas e garantir a segurança digital.
+                Os profissionais formados podem atuar como desenvolvedores web, designers, analistas de sistemas e especialistas em segurança digital, podendo trabalhar em empresas de tecnologia ou até empreender com seus próprios projetos digitais.</p>
+            </article>
+            <div class="alinhaQuadrado"> <!--Para centralizar os dois quadrados menores em uma coluna-->
+                <article class="quadrado"><!--Estilização específica-->
+                    <p><span style="background-color: #7E57C2;">LÍDERES</span></p>
+                    <p>A turma de InfoWeb 2M conta com a liderança da estudante <a id="insta" target="_blank" href="https://www.instagram.com/ana.el1da/?utm_source=ig_web_button_share_sheet">Ana Élida</a>, que exerce o papel de líder de turma com responsabilidade, organização e dedicação. Ao seu lado, o vice-líder <a id="insta" target="_blank" href="https://www.instagram.com/anthony.r84/?utm_source=ig_web_button_share_sheet">Anthony Rafael</a> colabora ativamente nas decisões e no apoio aos colegas, formando uma dupla comprometida com o bom andamento das atividades escolares e o fortalecimento do espírito de equipe entre todos.</p>
+                </article>
+                <article class="quadrado"><!--Estilzação específica-->
+                     <p><span style="background-color: #7E57C2;">ADMs Instagram</span></p>
+                     <p>Além disso, a conta do Instagram da turma está sob os cuidados de <a target="_blank" id="insta" href="https://www.instagram.com/beni.n10?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Benício</a> e <a target="_blank" id="insta" href="https://www.instagram.com/lays.eduardaaraujo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Lays</a>, que garantem que todos fiquem por dentro das novidades e momentos marcantes.</p>
+                </article>
+            </div>
+        </section>
+        <!--Seção das redes sociais-->
+        
+        <div class="odeioFlexbox"><!--Centralização do título da section-->
+            <h2>Redes Sociais</h2>
+        </div>
+        <p style="text-align: center;"><strong>Conecte-se conosco através das nossas redes sociais!<br>
+        <></strong></p> 
+        <section id="redes">
+
+            <!--Card de redes-->
+            <article class="social" id="animaçãoparaEsquerda"><!--Id para colocar uma animação específica-->
+                <p style="text-align: center;">&#128247; <strong>Instagram</strong> <span style="color: #7E57C2;">[<a id="insta" href="https://www.instagram.com/infoweb2025.2m?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">@InfoWeb2025.2m</a>]</span><br><br>
+                <p style="text-align: center;">Nosso Instagram é o canal oficial de divulgação da turma! Aqui compartilhamos:<br><br>
                 - Vídeos dos projetos em desenvolvimento<br><br>
                 - Dicas rápidas de programação e design<br><br>
                 - Momentos marcantes da turma<br><br>
                 - Conteúdo exclusivo sobre o nosso dia a dia</p><br>
                 <p>É a melhor forma de acompanhar nosso trabalho e se conectar com a equipe!</p>
-            </div>
-        </div>
-        <div class="ret2"><!--Configurações do quadrado individual-->
-            <div class="ret11"><!--Centraliza apenas o texto-->
-                <p>&#128187; <strong>GitHub</strong> <span style="color: #7E57C2;">[<a id="insta" href="https://github.com/InfoWeb2M" target="_blank">InfoWeb2025.2m</a>]</span><br><br>
+            </article>
+            <article class="social" id="animaçãoparaDireita"><!--Id para colocar uma animação específica-->
+                <p style="text-align: center; margin-bottom: 0.5rem;">&#128187; <strong>GitHub</strong> <span style="color: #7E57C2;">[<a id="insta" href="https://github.com/InfoWeb2M" target="_blank">InfoWeb2025.2m</a>]</span><br><br>
                     Nosso repositório oficial onde:<br>
                     - Todo o código do site é armazenado e organizado<br><br>
                     - Colaboramos em projetos conjuntos<br><br>
                     - Versionamos nosso progresso<br><br>
                     - Aprendemos sobre trabalho em equipe na programação</p><br>
                 
-                    <p><span style="color: #7E57C2;">Siga-nos</span> para ver o código por trás deste projeto e nossos <span style="color: #7E57C2;">futuros trabalhos</span>!</p>
+                    <p style="text-align: center;"><span style="color: #7E57C2;">Siga-nos</span> para ver o código por trás deste projeto e nossos <span style="color: #7E57C2;">futuros trabalhos</span>!</p>
                 
-                    <p>Junte-se a nós nestas plataformas e faça parte da nossa <span style="color: #7E57C2;">jornada digital</span>!</p>
-            </div>
+                    <p style="text-align: center;">Junte-se a nós nestas plataformas e faça parte da nossa <span style="color: #7E57C2;">jornada digital</span>!</p>
+            </article>
+        </section>
+    </main>
+    <footer><!--Rodapé Informaticamente burros-->
+        <img id="Mascote" src="imgs/Mascote.png" alt="Mascote"><!--Foto de Daniel-->
+        <div id="footer"><!--Div pra centralizar os parágrafos em si mesmos-->
+            <p id="resposividade">Quer ver mais da nossa turma? Venha conhecer o insta da resenha!</p>
+            <a id="pFooter" target="_blank" href="https://www.instagram.com/informaticamenteburros?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                @informaticamenteburros</a>
         </div>
-    </div>
-    <script src="app.js"></script>
+    </footer>
 </body>
 </html>
